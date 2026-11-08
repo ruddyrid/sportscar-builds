@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sports Car Build Library — update feed (RSS 2.0, decentralized).
+     Static file: subscribable in any feed reader, no central platform,
+     no account. One <item> per vehicle added or major update. When a
+     vehicle is added or updated, add an item here AND update
+     registry.json AND the library page — the three always agree.
+     Podcasting 2.0 namespace is used for stable IDs (podcast:guid)
+     and the locked tag; see docs/feed-guide.md. -->
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>Sports Car Build Library</title>
+    <link>https://example.com/</link>
+    <description>1980s and 1990s sports car builds — one self-contained page per car. New builds and major updates.</description>
+    <language>en-us</language>
+    <podcast:locked owner="ruddyrid">yes</podcast:locked>
+    <podcast:guid>bf8853fd-d69e-4269-ac19-ae08a2c5a930</podcast:guid>
+    <item>
+      <title>1987 Mazda RX-7 Turbo II — founder entry</title>
+      <link>https://example.com/vehicles/1987-mazda-rx7-turbo-ii/</link>
+      <description>Founder entry: the owner's 1987 Turbo II (FC3S, 13BT) build page is live — spec sheet, build log, parts list, and changelog.</description>
+      <guid isPermaLink="false">bf8853fd-d69e-4269-ac19-ae08a2c5a930</guid>
+      <podcast:guid>bf8853fd-d69e-4269-ac19-ae08a2c5a930</podcast:guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 -0600</pubDate>
+    </item>
+  </channel>
+</rss>
