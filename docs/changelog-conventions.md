@@ -30,10 +30,14 @@ plus one for the site itself if needed.
   summary ("First published", "Turbo install", "Torque corrections").
 - Sections used: **Added**, **Changed**, **Fixed**. (Deprecated,
   Removed, and Security exist in the standard but are rarely needed
-  here; use them if they fit.)
-- `[Unreleased]` holds work not yet published. When a page goes
-  live or a major update is published, move its entries under a
-  dated heading.
+  here; use them if they fit.) Use the sections in that order.
+- `[Unreleased]` holds changes already made but not yet published.
+  When a page goes live or a major update is published, move its
+  entries under a dated heading.
+- Planned work is not a changelog entry. A TODO ("photos to add",
+  "check this torque") goes in the build log; `[Unreleased]` records
+  changes that actually happened. Omit a section that has no
+  entries.
 
 ## Corrections
 

@@ -17,8 +17,8 @@ Notes column instead of guessing.
 
 ## Notes
 
-- Prices are what was actually paid, with the date in Notes when it
-  matters. "Product used in this build" means the part in the row is
-  the one on the car. "Related product" means it is a useful
-  alternative or companion, not the part fitted — keep the two
-  wordings separate.
+- Prices are as checked at the date in Notes when it matters;
+  confirm before ordering. "Product used in this build" means the
+  part in the row is the one on the car. "Related product" means it
+  is a useful alternative or companion, not the part fitted — keep
+  the two wordings separate.

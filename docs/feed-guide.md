@@ -25,7 +25,8 @@ The Podcasting 2.0 pieces used here are the decentralized ones:
 
 - `<podcast:guid>` — a stable UUID per item (the same UUID as the
   vehicle's `guid` in `registry.json`). Readers use it to tell
-  items apart even if the title or link changes.
+  items apart even if the title or link changes. At channel level
+  the tag is the feed's own stable ID, not a vehicle UUID.
 - `<podcast:locked owner="ruddyrid">yes</podcast:locked>` — says the
   feed is not to be imported or mirrored without permission.
 - Plain `<guid isPermaLink="false">` carries the same UUID for

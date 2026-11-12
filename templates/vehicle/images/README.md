@@ -7,7 +7,7 @@ self-contained if it is copied out on its own.
 ## Naming
 
 `YYYY-MM-DD-short-description.webp` — for example
-`2026-11-08-turbo-manifold-before.webp`. Date first keeps the folder
+`2026-11-08-brake-caliper-before.webp`. Date first keeps the folder
 in chronological order. One subject per filename, lowercase, hyphens
 only, no spaces.
 

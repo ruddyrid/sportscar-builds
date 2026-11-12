@@ -9,6 +9,10 @@ read `README.md` and `herdr-layout.md`, then start Phase 1.
 - Scaffold the folders, pages, and files in the phase order from
   `README.md`. Write the HTML, keep `registry.json` true, update
   the library page and `feed.xml` together when a vehicle is added.
+- **Run the authorizations menu first.** After reading the README,
+  run `bash scripts/authorize.sh` and wait for the owner to finish
+  it. Do not start Phase 1 until `authorizations.md` shows
+  decisions, and do nothing the menu did not approve.
 - Keep the TealsUnltd aesthetic: use `styles.css` as-is, same
   variables and components. No new fonts, no framework, no CDN.
 - Build static only. No JavaScript frameworks, no server code, no
@@ -31,5 +35,7 @@ read `README.md` and `herdr-layout.md`, then start Phase 1.
 ## When stuck
 
 If an agent you need is unavailable (quota, free-message limit),
-say so in the phase report and keep going with Copilot covering
-that role. The build never blocks on a missing agent.
+say so in the phase report and keep going with another free agent
+covering that role (OpenCode with the local model, or Gemini Flash).
+Copilot is out of quota and is not a fallback until its monthly
+quota returns. The build never blocks on a missing agent.

@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%230f766e'/%3E%3C/svg%3E">
 <!-- Replace the bracketed fields for each car. Keep the rest. -->
 <title>[YEAR] [MAKE] [MODEL] — Build Page | Sports Car Build Library</title>
 <meta name="description" content="Build page for a [YEAR] [MAKE] [MODEL]: spec sheet, build log, parts list, and changelog.">
@@ -31,8 +32,12 @@
 <tr><th>Year / Make / Model</th><td>[YEAR] [MAKE] [MODEL]</td></tr>
 <tr><th>Chassis</th><td>[CHASSIS]</td></tr>
 <tr><th>Engine</th><td>[ENGINE — verified spec only]</td></tr>
+<tr><th>Compression</th><td>[COMPRESSION RATIO — verified spec only]</td></tr>
 <tr><th>Transmission</th><td>[TRANSMISSION — verified spec only]</td></tr>
 <tr><th>Power (factory)</th><td>[FACTORY POWER — verified spec only]</td></tr>
+<tr><th>Torque (factory)</th><td>[FACTORY TORQUE — verified spec only]</td></tr>
+<tr><th>Redline</th><td>[REDLINE — verified spec only]</td></tr>
+<tr><th>Fuel system</th><td>[FUEL SYSTEM — verified spec only]</td></tr>
 </table>
 <p class="meta">Specs are factory figures unless marked otherwise. Verify every
 number in the factory service manual for the exact vehicle. Figures
@@ -51,11 +56,17 @@ next. Link the full record below.]</p>
 <section>
 <h2>Gallery</h2>
 <div class="gallery">
-<figure><img src="images/placeholder-1.webp" alt="[Short description of the photo]"><figcaption>[Caption, date]</figcaption></figure>
+<!-- Add one <figure> per real photo, then delete these comment markers.
+<figure>
+  <img src="images/YYYY-MM-DD-short-description.webp" alt="[Short description of the photo]">
+  <figcaption>[Date] — [What it shows and why it matters.]</figcaption>
+</figure>
+-->
 </div>
 <p class="meta">Photos live in this folder's <code>images/</code> — see
-<code>images/README.md</code> for naming and sizing. Replace the
-placeholder figure with real photos; delete it if there are none yet.</p>
+<code>images/README.md</code> for naming and sizing. Add one live
+<code>&lt;figure&gt;</code> per real photo; never point at an image that
+does not exist.</p>
 </section>
 
 <section class="note">

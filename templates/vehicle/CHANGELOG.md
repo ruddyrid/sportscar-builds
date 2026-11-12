@@ -27,6 +27,6 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 ---
 
 *Template note (delete when live): a correction entry names the old
-value and the new one, e.g. "Fixed: spark-plug torque was 14–19
-ft-lb, corrected to FSM 9.4–13 ft-lb." Never silently rewrite a
+value and the new one, e.g. "Fixed: a torque figure was copied from a
+forum post; corrected to the FSM value." Never silently rewrite a
 wrong figure.*

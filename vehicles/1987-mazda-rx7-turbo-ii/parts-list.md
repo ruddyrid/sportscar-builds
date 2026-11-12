@@ -1,15 +1,15 @@
 # Parts List — 1987 Mazda RX-7 Turbo II
 
-Every part on the car for this build, one row each. Seeded from the
+Every part on the car for this build, one row each. Compiled from the
 owner's TealsUnltd product pages and videos. Prices are as checked;
 confirm before ordering.
 
 | Part | Part number / spec | Source | Price | Status | Notes |
 |---|---|---|---|---|---|
-| S4 RX-7 Turbo II Thermal Lower Intake Manifold Gasket (Durlon 9400) | Replaces N318-13-111D; carbon-filled PTFE, reusable, seals dry without RTV | TealsUnltd | $41.99 | fitted | Product used in this build. Proven on the vehicle multiple times, latest run about 1,200 miles without issues. |
-| Freeze Plug Set — Rotor Housing Coolant Passage (Pair) | 20 mm, 13B | TealsUnltd | — | fitted | Product used in this build, confirmed same product as in the video. |
-| Crank Pulley Hub Bolt (12A, 13B, 20B) | OEM 9954-10-1105 | TealsUnltd | $12.00 | fitted | Single bolt. |
-| Racing Beat Downpipe, 3-inch | FC3S | Racing Beat | — | fitted | See build log — small exhaust-leak area noted in video description; fix status unknown. |
+| S4 RX-7 Turbo II Thermal Lower Intake Manifold Gasket (Durlon 9400) | Replaces N318-13-111D; carbon-filled PTFE (polytetrafluoroethylene), reusable, seals dry without RTV (room-temperature vulcanizing sealant) | TealsUnltd | $41.99 | fitted | Product used in this build. Proven on the car multiple times; latest run about 1,200 miles without issues. |
+| Freeze Plug Set — Rotor Housing Coolant Passage (Pair) | 20 mm, 13B | TealsUnltd | — | fitted | Product used in this build; confirmed as the same product shown in the video. Price not confirmed. |
+| Crank Pulley Hub Bolt (12A, 13B, 20B) | OEM 9954-10-1105 | TealsUnltd | $12.00 | fitted | Single bolt. Fitted status is as recorded; no install session is recorded in the build log. |
+| Racing Beat Downpipe, 3-inch | FC3S | Racing Beat | — | fitted | Product used in this build. See build log — small exhaust-leak area noted in the video description; fix status unknown. Price not confirmed. |
 
 ## Statuses
 

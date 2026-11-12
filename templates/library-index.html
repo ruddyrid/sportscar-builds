@@ -3,17 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%230f766e'/%3E%3C/svg%3E">
+<!-- Template: copy this file to the repo root as index.html and open it
+     there, not from templates/. Its relative paths resolve from the root. -->
 <title>Sports Car Build Library — 1980s &amp; 1990s Builds</title>
-<meta name="description" content="1980s and 1990s sports car builds — one self-contained page per car. Mazda RX-7, Chevrolet Camaro, Ford Mustang, Honda Civic, and more.">
-<link rel="stylesheet" href="../styles.css">
+<meta name="description" content="Build pages for 1980s and 1990s sports cars — one self-contained page per car.">
+<link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"CollectionPage","name":"Sports Car Build Library","description":"1980s and 1990s sports car builds — one self-contained page per car.","about":["Mazda RX-7","Chevrolet Camaro","Ford Mustang","Honda Civic","Sports car builds"]}
+{"@context":"https://schema.org","@type":"CollectionPage","name":"Sports Car Build Library","description":"Build pages for 1980s and 1990s sports cars — one self-contained page per car.","about":["Sports car builds","1980s cars","1990s cars"]}
 </script>
 </head>
 <body>
 <header class="site"><div class="wrap">
-<div class="topbar"><a class="brand" href="../index.html">Sports Car <span>Build Library</span></a><a href="../feed.xml" class="feed-link">RSS Feed</a></div>
-<nav class="main" aria-label="Main navigation"><a href="../index.html">Library</a><a href="../vehicles/1987-mazda-rx7-turbo-ii/">RX-7 Turbo II</a><a href="../docs/user-guide.md">User Guide</a></nav>
+<div class="topbar"><a class="brand" href="index.html">Sports Car <span>Build Library</span></a><a href="feed.xml" class="feed-link">RSS Feed</a></div>
+<nav class="main" aria-label="Main navigation"><a href="index.html">Library</a><a href="docs/user-guide.md">User Guide</a></nav>
 </div></header>
 
 <main class="wrap">
@@ -25,57 +28,36 @@ build logs, parts lists, and changelogs, one self-contained folder
 per car. Written from real work in the garage, not from brochures.</p>
 <p>Every car here is a separate entry. Open one, and everything about
 that build is in its folder — nothing depends on another car's page.
-New builds appear in the <a href="../feed.xml">RSS feed</a>, which any
+New builds appear in the <a href="feed.xml">RSS feed</a>, which any
 feed reader can follow. No account, no central platform.</p>
 </section>
 
 <section>
 <h2>The builds</h2>
 <div class="grid">
+<!-- Template: copy this <article> block once per vehicle in registry.json.
+     Keep year, make, model, status, and tags identical to the registry.
+     Delete these instructions before publishing. -->
 <article class="vehicle-card">
-<p><span class="status status-in-progress">In progress</span></p>
-<h3><a href="../vehicles/1987-mazda-rx7-turbo-ii/">1987 Mazda RX-7 Turbo II</a></h3>
-<p class="meta">FC3S · 13BT rotary · 1980s</p>
-<p>Founder entry — the owner's #FCTrees FC3S build, documented from
-his own work and videos.</p>
-<p><span class="tag">rotary</span> <span class="tag">turbo</span> <span class="tag">FC3S</span></p>
-</article>
-<article class="vehicle-card">
-<p><span class="status status-template">Template</span></p>
-<h3>Chevrolet Camaro (3rd / 4th gen)</h3>
-<p class="meta">1982–2002 · V6 / V8</p>
-<p>Template entry — copy <code>templates/vehicle/</code> to start a
-Camaro build page.</p>
-<p><span class="tag">camaro</span> <span class="tag">V8</span></p>
-</article>
-<article class="vehicle-card">
-<p><span class="status status-template">Template</span></p>
-<h3>Ford Mustang (Fox Body / SN95)</h3>
-<p class="meta">1979–2004 · 5.0 / 4.6 V8</p>
-<p>Template entry — copy <code>templates/vehicle/</code> to start a
-Mustang build page.</p>
-<p><span class="tag">mustang</span> <span class="tag">fox-body</span></p>
-</article>
-<article class="vehicle-card">
-<p><span class="status status-template">Template</span></p>
-<h3>Honda Civic (EF / EG / EK)</h3>
-<p class="meta">1988–2000 · D / B series</p>
-<p>Template entry — copy <code>templates/vehicle/</code> to start a
-Civic build page.</p>
-<p><span class="tag">civic</span> <span class="tag">honda</span></p>
+<p><span class="status status-in-progress">[Status — In progress / Template / Complete]</span></p>
+<h3><a href="vehicles/[year]-[make]-[model]/">[YEAR] [MAKE] [MODEL]</a></h3>
+<p class="meta">[CHASSIS] · [ENGINE] · [ERA]</p>
+<p>[One-line summary — copy from registry.json.]</p>
+<p><span class="tag">[tag]</span> <span class="tag">[tag]</span></p>
 </article>
 </div>
-<p class="meta">This list mirrors <code>registry.json</code> exactly.
-When a car is added, the registry, this page, and the feed are all
-updated together.</p>
+<p class="meta">This list must mirror <code>registry.json</code> exactly —
+one card per entry, with the same status and every registry tag. When a
+car is added, the registry, this page, and the feed are updated
+together.</p>
 </section>
 
 <section>
 <h2>How this library works</h2>
 <div class="card"><h3>1. One car, one folder</h3><p>Each build lives in its own folder with its page, build log, parts list, changelog, and photos. Copy a folder out and it still works on its own.</p></div>
 <div class="card"><h3>2. Specs are verified, not invented</h3><p>Factory figures come first. Anything from a video, forum, or memory is labeled as stated and unverified until it is checked against the factory service manual.</p></div>
-<div class="card"><h3>3. Follow it your way</h3><p>New builds and major updates go into the <a href="../feed.xml">RSS feed</a> — subscribe in any feed reader. There is no account to make and no platform in the middle.</p></div>
-<div class="card"><h3>4. Same structure, every car</h3><p>Every entry follows the same template: spec sheet, build story, parts list, gallery, changelog. Learn one page and you can read them all. See the <a href="../docs/user-guide.md">user guide</a>.</p></div>
+<div class="card"><h3>3. Follow it your way</h3><p>New builds and major updates go into the <a href="feed.xml">RSS feed</a> — subscribe in any feed reader. There is no account to make and no platform in the middle.</p></div>
+<div class="card"><h3>4. Same structure, every car</h3><p>Every entry follows the same template: spec sheet, build story, parts list, gallery, changelog. Learn one page and you can read them all. See the <a href="docs/user-guide.md">user guide</a>.</p></div>
 </section>
 
 <section class="note">

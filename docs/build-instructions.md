@@ -16,13 +16,19 @@ folders sort chronologically.
 ## 2. Fill in the page
 
 Open `vehicles/[new-car]/index.html` and replace every bracketed
-field: year, make, model, era, chassis, engine, transmission,
-factory power, tags, summary. Delete any section that does not
-apply — do not leave bracketed placeholders in a published page.
+field: year, make, model, era, chassis, engine, compression,
+transmission, factory power, factory torque, redline, fuel system,
+tags. (`summary` is not on the page — it goes in `registry.json` in
+step 5.) The template's spec rows are a starting point: delete rows
+that do not apply, add rows for other verified figures, and label
+any unverified one. Delete any section that does not apply — do not
+leave bracketed placeholders in a published page.
 
 Spec rules (same as the README):
 
 - Factory figures first, verified where possible.
+- A factory figure that is not yet confirmed is marked "verify in
+  FSM" on the page, so a reader does not mistake it for verified.
 - Anything from a video, forum, or memory is labeled "as stated"
   and unverified until checked against the factory service manual.
 - If a figure cannot be verified, leave it out and flag it in the
@@ -31,7 +37,9 @@ Spec rules (same as the README):
 ## 3. Write the build log and parts list
 
 - `build-log.md`: one dated entry per work session, newest first
-  (see the template for the format).
+  (see the template for the format). A video record with no
+  confirmed date goes in a separate undated section — never invent
+  a date or order.
 - `parts-list.md`: one row per part, with part number, source,
   price, and status (fitted / ordered / wanted / removed).
 - `CHANGELOG.md`: start it with an `[Unreleased]` section; move
@@ -40,8 +48,10 @@ Spec rules (same as the README):
 ## 4. Add photos
 
 Photos go in the car's `images/` folder. Follow
-`docs/image-guide.md` (naming, WebP, 1600px max, captioned). Add a
-`<figure>` per photo to the gallery on the page.
+`docs/image-guide.md` (naming, WebP, 1600px max, captioned). The
+template's gallery is a commented-out `<figure>` pattern: add one
+live `<figure>` per real photo, then delete the comment markers.
+Never publish a page that points at an image that does not exist.
 
 ## 5. Register the car (three places, always together)
 

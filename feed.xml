@@ -9,15 +9,15 @@
 <rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>Sports Car Build Library</title>
-    <link>https://example.com/</link>
+    <link>https://ruddyrid.github.io/sportscar-builds/</link>
     <description>1980s and 1990s sports car builds — one self-contained page per car. New builds and major updates.</description>
     <language>en-us</language>
     <podcast:locked owner="ruddyrid">yes</podcast:locked>
-    <podcast:guid>bf8853fd-d69e-4269-ac19-ae08a2c5a930</podcast:guid>
+    <podcast:guid>9668e23c-9a94-4882-88ed-8e6881d6e781</podcast:guid>
     <item>
       <title>1987 Mazda RX-7 Turbo II — founder entry</title>
-      <link>https://example.com/vehicles/1987-mazda-rx7-turbo-ii/</link>
-      <description>Founder entry: the owner's 1987 Turbo II (FC3S, 13BT) build page is live — spec sheet, build log, parts list, and changelog.</description>
+      <link>https://ruddyrid.github.io/sportscar-builds/vehicles/1987-mazda-rx7-turbo-ii/</link>
+      <description>Founder entry: the owner's 1987 Turbo II (FC3S, 13BT) build page — spec sheet verified against the factory service manual as transcribed in the owner's accuracy review, plus the build log, parts list, and changelog.</description>
       <guid isPermaLink="false">bf8853fd-d69e-4269-ac19-ae08a2c5a930</guid>
       <podcast:guid>bf8853fd-d69e-4269-ac19-ae08a2c5a930</podcast:guid>
       <pubDate>Sun, 08 Nov 2026 00:00:00 -0600</pubDate>

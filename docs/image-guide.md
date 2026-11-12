@@ -10,10 +10,18 @@ moves, the photos move with it.
 page references them by relative path (`images/photo.webp`), so an
 entry copied out on its own keeps working.
 
+## The gallery pattern
+
+`templates/vehicle/index.html` ships with a commented-out
+`<figure>` pattern, not a live image reference. Add one live
+`<figure>` per real photo, then delete the comment markers. A page
+that points at a missing image is broken, not a placeholder — never
+ship a live `<img>` whose file is not in the folder.
+
 ## Naming
 
 `YYYY-MM-DD-short-description.webp` — for example
-`2026-11-08-turbo-manifold-before.webp`. Date first keeps the folder
+`2026-11-08-brake-caliper-before.webp`. Date first keeps the folder
 in chronological order. Lowercase, hyphens only, no spaces, one
 subject per filename.
 
@@ -46,9 +54,9 @@ caption is decoration.
 
 ```html
 <figure>
-  <img src="images/2026-11-08-turbo-manifold-before.webp"
-       alt="Turbo manifold before stoning, showing the uneven face">
-  <figcaption>2026-11-08 — Turbo manifold face before stoning.</figcaption>
+  <img src="images/2026-11-08-brake-caliper-before.webp"
+       alt="Brake caliper before cleaning, showing the uneven surface">
+  <figcaption>2026-11-08 — Brake caliper before cleaning.</figcaption>
 </figure>
 ```
 

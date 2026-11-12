@@ -20,6 +20,10 @@ do not fix.
   registry entry or changelog entry.
 - Validate `feed.xml` as RSS 2.0 (well-formed XML, required
   channel fields present, dates in RFC-822 format).
+- Check the gate: `authorizations.md` exists with decisions, and
+  nothing in the phase exceeded what the owner approved. If the
+  file is missing or a step went past it, that is a failure —
+  report it, do not pass the phase.
 - Produce a findings list per phase: PASS, or a list of failures
   with the exact file and line. The Builder fixes them.
 
